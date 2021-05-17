@@ -180,6 +180,12 @@ footer {
     filter: hue-rotate(291deg) saturate(509%) brightness(214%);
 }
 
+@media (min-width: 1440px) {
+    body {
+        background-size: contain;
+    }
+}
+
 @media (max-width: 768px) {
     body {
         background-image: url(./images/bg-header-mobile.png);
@@ -241,10 +247,6 @@ footer {
         justify-content: center;
         margin: 25px 0;
     }
-
-    
-
-    
 }
 
 @media (max-width: 376px){
